@@ -11,7 +11,7 @@ body {
   padding: 0;
   height: 100vh;
   font-family: Arial, sans-serif;
-  background: url('Minecraft copy.jpg') no-repeat center center fixed;
+  background: url('minecraft.jpg') no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
   display: flex;
@@ -22,8 +22,8 @@ body {
 /* White box container */
 .white-box {
   width: 90%;
-  max-width: 600px; /* bigger box */
-  background: rgba(120, 136, 227, 0.95); /* semi-transparent */
+  max-width: 600px; 
+  background: rgba(255, 255, 255, 0.95); 
   padding: 30px;
   border-radius: 20px;
   text-align: center;
@@ -78,13 +78,24 @@ body {
 .green { background: green; left: 70%; animation-delay: 1s; }
 .pink { background: pink; left: 85%; animation-delay: 3s; }
 
+/* Gifts link button */
+.gifts-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ff9900;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
 </style>
 </head>
 <body>
 
 <!-- Birthday Music -->
 <audio autoplay loop controls>
-<source src="music-copy copy.mp3" type="audio/mpeg">
+  <source src="music.mp3" type="audio/mpeg">
 </audio>
 
 <!-- White box -->
@@ -92,11 +103,12 @@ body {
   <h1>🎉 Birthday Invitation 🎉</h1>
   <h2>Join us to celebrate</h2>
   <h1>Siddharth's Birthday</h1>
-  <img src="sid copy.jpg"alt="Siddharth">
+  <img src="siddharth.jpg" alt="Siddharth">
   <p>🎳 Venue: Kingpin</p>
   <p>📅 Date: 15 March</p>
   <p>⏰ Time: 10:00 AM</p>
   <p>We look forward to celebrating with you guys!</p>
+  <a href="YOUR-GIFT-LINK" target="_blank" class="gifts-link">🎁 Click for Gifts</a>
 </div>
 
 <!-- Balloons -->
