@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siddharth Birthday Invitation</title>
+<style>
+/* Fullscreen Minecraft background */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: url('Minecraft copy.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* White box container */
+.white-box {
+  width: 90%;
+  max-width: 600px; /* bigger box */
+  background: rgba(120, 136, 227, 0.95); /* semi-transparent */
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* Siddharth image */
+.white-box img {
+  width: 180px;
+  border-radius: 15px;
+  margin: 15px 0;
+}
+
+/* Headings */
+.white-box h1 {
+  font-size: 36px;
+  margin: 15px 0;
+}
+
+.white-box h2 {
+  font-size: 24px;
+  margin: 10px 0 20px 0;
+}
+
+/* Paragraphs */
+.white-box p {
+  font-size: 20px;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+/* Balloons floating animation */
+.balloon {
+  position: absolute;
+  bottom: -150px;
+  width: 70px;
+  height: 90px;
+  border-radius: 50%;
+  animation: float 10s infinite linear;
+}
+
+/* Float animation */
+@keyframes float {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-1200px); }
+}
+
+/* Balloon colors and positions */
+.red { background: red; left: 10%; animation-delay: 0s; }
+.blue { background: blue; left: 30%; animation-delay: 2s; }
+.yellow { background: yellow; left: 50%; animation-delay: 4s; }
+.green { background: green; left: 70%; animation-delay: 1s; }
+.pink { background: pink; left: 85%; animation-delay: 3s; }
+
+</style>
+</head>
+<body>
+
+<!-- Birthday Music -->
+<audio autoplay loop controls>
+<source src="music-copy copy.mp3" type="audio/mpeg">
+</audio>
+
+<!-- White box -->
+<div class="white-box">
+  <h1>🎉 Birthday Invitation 🎉</h1>
+  <h2>Join us to celebrate</h2>
+  <h1>Siddharth's Birthday</h1>
+  <img src="sid copy.jpg"alt="Siddharth">
+  <p>🎳 Venue: Kingpin</p>
+  <p>📅 Date: 15 March</p>
+  <p>⏰ Time: 10:00 AM</p>
+  <p>We look forward to celebrating with you guys!</p>
+</div>
+
+<!-- Balloons -->
+<div class="balloon red"></div>
+<div class="balloon blue"></div>
+<div class="balloon yellow"></div>
+<div class="balloon green"></div>
+<div class="balloon pink"></div>
+
+</body>
+</html>
